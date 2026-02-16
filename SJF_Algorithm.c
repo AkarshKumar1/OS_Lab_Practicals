@@ -62,6 +62,14 @@ int main() {
     }
 
     wt[0] = 0; // waiting time of first process
+    
+    printf("\nExecution Order (Gantt Chart):\n");
+    for (i = 0; i < n; i++) {
+         printf("P%d", p[i]);
+    if (i != n - 1)
+        printf(" -> ");
+    }
+    printf("\n");
 
     for (i = 1; i < n; i++) {
         wt[i] = 0;
