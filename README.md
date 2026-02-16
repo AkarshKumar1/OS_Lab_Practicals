@@ -6,3 +6,4 @@
 |-----|--------|
 | 1 | Implementation Of FCFS Algorithm |
 | 2 | Implementation Of SJF (Non - Preemptive) Scheduling Algorithm |
+| 3 | Implementation Of Round Robin Algorithm |
